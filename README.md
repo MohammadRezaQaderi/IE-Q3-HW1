@@ -24,6 +24,7 @@ We can delete with use this command
   git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
 </code>
 
-that use the path of file that you want to delete in path_to_file
 
+that use the path of file that you want to delete in path_to_file
+![Screenshot (52)](https://user-images.githubusercontent.com/66215461/138945221-fd94a1d6-c11b-4cb0-a1d1-316866cfe0bd.png)
 
