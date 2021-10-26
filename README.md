@@ -41,3 +41,17 @@ and we can download with
 <code>
 git apply filename.patch
 </code>
+
+
+## For Have a commit from other branch :)
+
+<br>
+<code>
+git cherry-pick <commit-hash> 
+</code>
+
+and for rest of the other branch merge
+<br>
+<code>
+git rebase other-branch
+</code>
