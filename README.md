@@ -28,3 +28,16 @@ We can delete with use this command
 that use the path of file that you want to delete in path_to_file
 ![Screenshot (52)](https://user-images.githubusercontent.com/66215461/138945221-fd94a1d6-c11b-4cb0-a1d1-316866cfe0bd.png)
 
+
+## For Share that cannot be pushed right away
+We can Share files with firends withoutbe pushed right away 
+<br>
+<code>
+git diff > filename.patch
+</code>
+
+and we can download with
+<br>
+<code>
+git apply filename.patch
+</code>
