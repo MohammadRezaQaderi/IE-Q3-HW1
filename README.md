@@ -15,3 +15,15 @@ In this situation we can use --amend for change the previous commit files
 <code>
 git commit --amend -m "The Commit content"
 </code>
+
+
+## For delete file from all where
+We can delete with use this command 
+<br>
+<code>
+  git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
+</code>
+
+that use the path of file that you want to delete in path_to_file
+
+
